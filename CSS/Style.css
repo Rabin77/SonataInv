@@ -1,0 +1,383 @@
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-color: rgb(218,165,32);
+  }
+
+  /* start navigationbar section */
+  #topnavigationmanage{
+    height: 50px;
+    width: auto;
+    background-color: tomato;
+    position: relative;
+
+  }
+  .manageremailaddress{
+    margin-top:0px;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    height: 35px;
+    padding:5px;
+    font-size: 15px;
+    width: 130%;
+  }
+  nav{
+    font-family: 'Poppins', sans-serif;
+  }
+  #fonticn{
+    margin-top: -10px;
+    color:white;
+    border-radius: 100%;
+    font-weight: bold;
+  }
+.addme
+{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 500;
+  box-shadow: 0 0 8px 0 #cfc9c9;
+  
+}
+  #subnanvar{
+    background-color: rgb(218,165,32);
+    color: white
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+@media screen and (max-width: 768px){
+    #subnanvar {
+      text-align: justify;
+      position: relative;
+      overflow: hidden;
+    }
+} 
+  .nav-link{
+    font-optical-sizing: 200px;
+    margin-top: 20px;
+    margin-left:40px;
+    overflow: hidden;
+
+  }
+
+  /* end navigationbar section */
+  
+  
+  /* start crouselbannersection */
+ 
+  .carousel-caption {
+    top: 40%;
+    
+  }
+
+  .img-container {
+     background-color: #000000;
+   }
+  .img-container img { 
+    opacity: 0.5; 
+  }
+  #mamphuli{
+    font-size: 2vw;;
+  }
+  
+  .carousel-caption  a p{
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+  
+    /*for firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slidein;
+  
+      /* for opera*/
+    -o-animation-duration: 3s;
+    -o-animation-name: slidein;
+  
+      /* Standard syntax*/
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+  }
+  @-webkit-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+  
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+  }
+  
+  @-moz-keyframes slidein {
+    from {
+  
+        width: 300%;
+    }
+  
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+  }
+  @-o-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+  
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+  }
+  @keyframes slidein {
+    from {
+       
+        width: 300%;
+    }
+  
+    to {
+       
+        width: 100%;
+    }
+  }
+  /*ffooterextra*/
+  .info{
+    list-style-type: none;
+    margin-top: 20px;
+    color: white;
+}
+.info a{
+    color: white;
+}
+footer{
+  color: white;
+  background-color: rgb(218,165,32);
+
+}
+.footer .footer-text p {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 15px;
+  
+}
+.webfooter{
+  overflow: hidden;
+}
+.footer-top{
+  overflow: hidden;
+}
+section{
+  overflow: hidden;
+}
+.aboutnav{
+  margin-top: 20px;
+}
+.aboutnav a{
+  color: white;
+}
+.aboutnav a:hover{
+color: orangered;
+}
+.fbpage{
+  text-align: center;
+}
+/*imagecenterextarsection*/
+  .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  }
+  .centerr{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  }
+/* aboutsection */
+.about{
+  font-family: 'Poppins', sans-serif;
+}
+  /* howtomakemoney */
+  .makemoney{
+    list-style-type:decimal-leading-zero;
+    margin-top: 20px;
+  }
+  .howtoearn{
+    border:2px solid gold;
+    width: 270px;
+    margin: auto;
+  }
+  .howtomakemoney{
+    background-color: rgb(212,175,55);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  .mycalltoaction{
+    background-color:wheat ;
+
+  }
+
+
+  /* graph */
+
+  .investmentline{
+    border: 2px solid orangered;
+    width: 300px;
+    margin: auto;
+  }
+  .tabmenu{
+    color: white;
+  }
+.exchnagrate{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 900px;
+}
+@media screen and (min-width: 376px) and (max-width: 768px){
+  .exchnagrate{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 1000px;
+  }
+}
+/*tabsection*/
+
+.mytab{
+     background-color: rgb(212,175,55);
+ }
+#nav {
+width:600px;
+margin:0 auto;
+list-style:none;
+margin-top: 20px;
+}
+#nav li {
+color: black;
+margin-top: 20px;
+}
+#nav a {
+display:block;
+text-align:center;
+width:200px; /* fixed width */
+color: black;
+margin-top: 20px;
+cursor: pointer;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+#nav li a{
+font-size: 11px;
+width: auto;
+margin-left: 30px;
+margin-top: 20px;
+}
+  }
+
+@media screen and (min-width: 320px) and (max-width: 320px){
+#nav li a{
+font-size: 11px;
+width: auto;
+margin-left: 10px;
+margin-top: 20px;
+}
+  }
+
+
+
+/*calltoaction*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/*button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+*/
+/*button:hover {
+  opacity: 0.8;
+}*/
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+#okftr{
+  font-size:15px;
+  color:red;
+}

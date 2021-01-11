@@ -1,0 +1,33 @@
+#mybtn{
+    background-color: orangered;
+    margin-top: 10px;
+}
+.whychoose{
+    height: 400px;
+    
+}
+section{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.list li{
+    color: black;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  #management{
+    height: 530px;
+  }
+
+  /* bankpatner */
+  .bankpatner{
+      border: 2px solid brown;
+      margin: auto;
+      width: 200px;
+  }
+  .mygif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  }

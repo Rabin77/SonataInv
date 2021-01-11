@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.fa-star-half-o{
+    color: chocolate;
+}
+.fa-star{
+    color: chocolate;
+}
+
+img{
+    text-align: center;
+}
+.mycmdt{
+    border: 2px solid sienna;
+    width: 400px;
+    margin: auto;
+}
+.list{
+    margin-top: 100px;
+}
+.list li{
+    margin-bottom:30px;
+}
+.list h4{
+    margin-top: -40px;
+}
+h5{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.zoom:hover {
+    -ms-transform: scale(5.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(0.5); 
+  }
+
+  a{
+      color: black;
+  }
+  #colorssection{
+      background-color:wheat;
+      height: 600px;
+  }
+  /* mechanisimpage */
+  .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  #mybtn{
+      background-color: tomato;
+  }
